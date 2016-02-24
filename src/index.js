@@ -1,7 +1,7 @@
 (angular => {
   'use strict';
 
-  angular.module('validatorAsync')
+  angular.module('validatorAsync', [])
   .directive('validatorAsync', ['$q', '$timeout', validatorAsync]);
 
   function validatorAsync($q, $timeout) {
