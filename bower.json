@@ -1,0 +1,34 @@
+{
+  "name": "angular-validator-async",
+  "version": "0.1.0",
+  "description": "A simple validator that awaits for a promise to validate",
+  "main": "dist/angular-validator-async.min.js",
+  "authors": [
+    "Carlos André Ferrari"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/caferrari/angular-validator-async.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "form-validation",
+    "material",
+    "design",
+    "angular"
+  ],
+  "homepage": "https://github.com/caferrari/angular-validator-async",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "angular": ">1.4.0"
+  }
+}
