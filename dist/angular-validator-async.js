@@ -11,7 +11,7 @@
       restrict: 'A',
       require: 'ngModel',
       scope: {
-        validator: '&asyncValidator'
+        validator: '&validatorAsync'
       },
       link: function link(scope, element, attrs, ngModel) {
 

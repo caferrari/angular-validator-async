@@ -10,7 +10,7 @@
       restrict: 'A',
       require: 'ngModel',
       scope: {
-        validator: '&asyncValidator'
+        validator: '&validatorAsync'
       },
       link: (scope, element, attrs, ngModel) => {
 
