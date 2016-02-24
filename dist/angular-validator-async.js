@@ -3,9 +3,9 @@
 (function (angular) {
   'use strict';
 
-  angular.module('asyncValidator').directive('asyncValidator', ['$q', '$timeout', asyncValidator]);
+  angular.module('validatorAsync').directive('validatorAsync', ['$q', '$timeout', validatorAsync]);
 
-  function asyncValidator($q, $timeout) {
+  function validatorAsync($q, $timeout) {
 
     return {
       restrict: 'A',
